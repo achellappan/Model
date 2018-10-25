@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="vt.xsl"?>
+<!-- DOCTYPE vt SYSTEM "vt.dtd" -->
+<vt version="1.0">
+  <info>
+    <command>C:\Program Files (x86)\Configit Model 5.11\bin\x64\pmc -options_from_cws_file Test Model.cws -a 100 -exp_static -s 3 -static -sup_pct 60 -n 100 -nw_blocked_int -nw_blocked_float -nw_blocked_string -nw_blocked_range -novtcl -no_pmpp -prs Test Model.prs -clc Test Model.clx Test Model.pm</command>
+    <date>Thu Oct 25 15:29:05 2018&#xA;</date>
+    <sw_version>5.11.7.21</sw_version>
+  </info>
+  <variables count="3">
+    <var index="0" type="enum" domain_size="1" ext_type="ubound_int"/>
+    <var index="1" type="enum" domain_size="1" ext_type="string"/>
+    <var index="2" type="enum" domain_size="1"/>
+  </variables>
+  <pm_structure>
+    <pm_var order="0" parent="-1" name="NewVariable" index="0"/>
+    <pm_var order="1" parent="-1" name="newVariable" index="1"/>
+    <pm_var order="2" parent="-1" name="CurrentLanguage" index="2"/>
+  </pm_structure>
+  <presentation>
+    <layer name="SystemValues">
+      <entry>
+        <key>0</key>
+        <value>]-inf;inf[</value>
+      </entry>
+      <entry>
+        <key>1</key>
+        <value>[Other values]</value>
+      </entry>
+      <entry>
+        <key>2</key>
+        <value>{CurrentLanguageType}N/A</value>
+      </entry>
+    </layer>
+    <layer name="SystemVariables">
+      <entry>
+        <key>0</key>
+        <value>NewVariable</value>
+      </entry>
+      <entry>
+        <key>1</key>
+        <value>newVariable</value>
+      </entry>
+      <entry>
+        <key>2</key>
+        <value>CurrentLanguage</value>
+      </entry>
+    </layer>
+    <layer name="FQNtoUuid">
+      <entry>
+        <key>$PM</key>
+        <value>cb340424-b4bf-4993-9788-32ad8d44c298</value>
+      </entry>
+      <entry>
+        <key>$VT</key>
+        <value>d92e0ac7-f339-4b44-9ed3-468074902fd6</value>
+      </entry>
+      <entry>
+        <key>NewVariable</key>
+        <value>c02c9d22-ead3-45be-800b-9af55b1fbf20</value>
+      </entry>
+      <entry>
+        <key>newVariable</key>
+        <value>2c87fd81-2ef0-4f88-86c4-97bd938f165e</value>
+      </entry>
+    </layer>
+  </presentation>
+  <conf_static>
+    <data>
+      <![CDATA[v3 n5 e3 r2
+P////-B
+P////-B
+P////-A
+C,D,E
+]]>
+    </data>
+  </conf_static>
+</vt>

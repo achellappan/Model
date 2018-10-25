@@ -30,6 +30,10 @@
         <property_values/>
         <language_translations/>
       </variable>
+      <variable name="newVariable" is_private="false" is_enabled="true" type="String" uuid="2c87fd81-2ef0-4f88-86c4-97bd938f165e" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
       <rules/>
       <relations/>
       <functions/>

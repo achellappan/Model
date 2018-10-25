@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="cws.xsl"?>
+<!-- DOCTYPE cws SYSTEM "cws.dtd" -->
+<cws>
+  <project name="Test Model">
+    <product_model>
+      <uri>Test Model.pm</uri>
+    </product_model>
+    <main>
+      <uri>Test Model.pm</uri>
+    </main>
+    <presentation>
+      <uri>Test Model.prs</uri>
+    </presentation>
+    <calculation>
+      <uri>Test Model.clx</uri>
+    </calculation>
+    <targets>
+      <target name="compile">
+        <options>
+          <option name="-a" value="100"/>
+          <option name="-exp_static"/>
+          <option name="-s" value="3"/>
+          <option name="-static"/>
+          <option name="-sup_pct" value="60"/>
+          <option name="-n" value="100"/>
+          <option name="-nw_blocked_int"/>
+          <option name="-nw_blocked_float"/>
+          <option name="-nw_blocked_string"/>
+          <option name="-nw_blocked_range"/>
+          <option name="-novtcl"/>
+          <option name="-no_pmpp"/>
+        </options>
+        <precmds/>
+        <postcmds/>
+      </target>
+    </targets>
+  </project>
+</cws>
