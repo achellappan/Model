@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- DOCTYPE workspace SYSTEM "modeler.dtd" -->
+<workspace version="60">
+  <product_model name="Test Model" uuid="cb340424-b4bf-4993-9788-32ad8d44c298">
+    <compile_options>
+      <property_values>
+        <property_value name="cache_size">100</property_value>
+        <property_value name="dynamic_vt">false</property_value>
+        <property_value name="exp_static">true</property_value>
+        <property_value name="no_warnings">false</property_value>
+        <property_value name="preserve_memory">false</property_value>
+        <property_value name="sort_rules">3</property_value>
+        <property_value name="static_vt">true</property_value>
+        <property_value name="support_pct">60</property_value>
+        <property_value name="table_size">100</property_value>
+        <property_value name="timeout">-1</property_value>
+        <property_value name="tob_cache_size">100</property_value>
+        <property_value name="tob_daog_preprocessor">true</property_value>
+        <property_value name="tob_preserve_memory">false</property_value>
+        <property_value name="tob_split">true</property_value>
+        <property_value name="tob_table_size">100</property_value>
+        <property_value name="tob_varorder">-1</property_value>
+        <property_value name="varorder">-1</property_value>
+        <property_value name="verbose_level">false</property_value>
+      </property_values>
+    </compile_options>
+    <property_values/>
+    <product_model_structure>
+      <variable name="NewVariable" is_private="false" is_enabled="true" type="Integer" uuid="c02c9d22-ead3-45be-800b-9af55b1fbf20" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
+      <rules/>
+      <relations/>
+      <functions/>
+    </product_model_structure>
+    <variable_types/>
+    <property_groups>
+      <property_group group="product_model">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="1bed431b-50fd-40f1-bf06-ec3c3bcd198a" is_read_only="false" builtin="true">
+            <description>The name of the product model. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="17cce7f9-8e30-4bf2-8bf1-4eb57247d8b9" is_read_only="false" builtin="true">
+            <description>Description of product model. Used for internal documentation of the model.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="groups">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="57a49599-5eea-4df2-b0ec-76e1452f4e8f" is_read_only="false" builtin="true">
+            <description>The name of the group. Group names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="23f4faae-d2e3-41d5-9ba9-505883c6f730" is_read_only="false" builtin="true">
+            <description>Description of group. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="24792bcf-24fd-4a05-a4ab-569f0efe0623" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the group.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="34c51985-2dce-420f-a4d5-94a9ba24ade0" is_read_only="false" builtin="true">
+            <description>When a group is private, all variables in the group and all sub-groups are private. Thus, the content of a private group is not included in the VT file, but any rules that bind variables inside and outside the group remain in effect.</description>
+          </property>
+          <property name="Enabled" type="Boolean" export_property="true" uuid="160379e4-7776-4dac-8791-c1c58875d7fe" is_read_only="false" builtin="true">
+            <description>Only enabled groups are included when compiling the VT file. Disabling a group is the same as commenting out the group</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="variables">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="fcbb5b6b-9eb7-4027-89fd-660374ff04bc" is_read_only="false" builtin="true">
+            <description>The name of the variable. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="d125f00c-56d1-420b-aed0-fc1e195f05e2" is_read_only="false" builtin="true">
+            <description>Description of variable. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="10007fac-870a-4a60-b2af-4f1d379dcd90" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the variable.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="ebf392ff-47f4-44cd-a160-f3fb9570feed" is_read_only="false" builtin="true">
+            <description>A private variable is not included in the VT file, but it can still be used in rules. Making the variable private will make the VT file smaller.</description>
+          </property>
+          <property name="Bound" type="Integer" export_property="true" uuid="3268a1aa-cd90-4219-851f-5e26dffc53ea" is_read_only="false" builtin="true">
+            <description>The upper bound for variables of type Range. The value of range variables must be in the interval from 0 to the number given by this property.</description>
+          </property>
+          <property name="Enabled" type="Boolean" export_property="true" uuid="4374af1c-93e1-44fb-9a84-2f304a498a2a" is_read_only="false" builtin="true">
+            <description>Only enabled variables are included when compiling the VT file. Disabling a variable is the same as commenting out the variable.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="values">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="fbc57b79-74e8-4b80-9232-93a6aba99e19" is_read_only="false" builtin="true">
+            <description>The enum value. Enumeration values can be any string. The only restrictions is that they have to be unique within the type.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="3c87a15a-6ad2-4aa1-a1d4-b549b2283fd5" is_read_only="false" builtin="true">
+            <description>Description of value. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="6f539e05-2eed-4faf-bc7b-34941567cc66" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the Value.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="rules">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="53cc68c2-57e7-43e9-b273-4672ddb376e8" is_read_only="false" builtin="true">
+            <description>The name of the rule. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="ee63adaf-8bb1-410f-bc63-43c8d3365911" is_read_only="false" builtin="true">
+            <description>Description of rule. Used for internal documentation of the model.</description>
+          </property>
+          <property name="Enabled" type="Boolean" export_property="true" uuid="0de95573-495e-4fe4-bd49-46b9bf147432" is_read_only="false" builtin="true">
+            <description>Only enabled rules are included when compiling the VT file. Disabling a rule is the same as commenting out the rule.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="relations">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="ed06af62-9b58-4194-a7f1-812d1d5fcbf4" is_read_only="false" builtin="true">
+            <description>The name of the relation. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="d0a61bc8-0934-49de-af52-e043f028f7a2" is_read_only="false" builtin="true">
+            <description>Description of relation. Used for internal documentation of the model.</description>
+          </property>
+          <property name="Enabled" type="Boolean" export_property="true" uuid="e0e8332e-5cd7-41fb-b6ff-3d7d4b544450" is_read_only="false" builtin="true">
+            <description>Only enabled relations are included when compiling the VT file. However, rules may refer to relations using the rel() operator and thus a disable relation may still be in effect under the conditions specified by the rule.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="functions">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="dfc65245-1386-4d1c-a7e6-6a39ac286215" is_read_only="false" builtin="true">
+            <description>The name of the function. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="d40c955a-5830-4a18-94b4-b1213b9abdfe" is_read_only="false" builtin="true">
+            <description>Description of function. Used for internal documentation of the model.</description>
+          </property>
+          <property name="Enabled" type="Boolean" export_property="true" uuid="de9a0c26-781e-41e0-9826-94e03e056bfa" is_read_only="false" builtin="true">
+            <description>Only enabled functions are included when compiling the VT file. Disabling a function is the same as commenting out the function.</description>
+          </property>
+        </properties>
+      </property_group>
+    </property_groups>
+    <variable_orders/>
+    <languages/>
+  </product_model>
+</workspace>
