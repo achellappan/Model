@@ -35,6 +35,17 @@
       </stmt>
     </function>
   </namespace>
+  <namespace name="NewVariable_2.Properties">
+    <function name="Name" type="string">
+      <stmt>
+        <return_stmt>
+          <expr>
+            <string_const value="NewVariable_2"/>
+          </expr>
+        </return_stmt>
+      </stmt>
+    </function>
+  </namespace>
   <namespace name="CurrentLanguage.Properties">
     <function name="Show" type="bool">
       <stmt>

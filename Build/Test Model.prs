@@ -9,7 +9,7 @@
     </entry>
     <entry>
       <key>$VT</key>
-      <value>d92e0ac7-f339-4b44-9ed3-468074902fd6</value>
+      <value>ecbf6f67-7b9a-454d-83fd-6665a93ecb82</value>
     </entry>
     <entry>
       <key>NewVariable</key>
@@ -18,6 +18,16 @@
     <entry>
       <key>newVariable</key>
       <value>2c87fd81-2ef0-4f88-86c4-97bd938f165e</value>
+    </entry>
+    <entry>
+      <key>NewVariable_2</key>
+      <value>1d50c6da-218c-4a68-8a78-4a5db07b28b8</value>
+    </entry>
+  </layer>
+  <layer name="VariableNameToTypeName">
+    <entry>
+      <key>NewVariable_2</key>
+      <value>DateTime</value>
     </entry>
   </layer>
 </presentation>

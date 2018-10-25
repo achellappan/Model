@@ -4,18 +4,20 @@
 <vt version="1.0">
   <info>
     <command>C:\Program Files (x86)\Configit Model 5.11\bin\x64\pmc -options_from_cws_file Test Model.cws -a 100 -exp_static -s 3 -static -sup_pct 60 -n 100 -nw_blocked_int -nw_blocked_float -nw_blocked_string -nw_blocked_range -novtcl -no_pmpp -prs Test Model.prs -clc Test Model.clx Test Model.pm</command>
-    <date>Thu Oct 25 15:29:05 2018&#xA;</date>
+    <date>Thu Oct 25 15:34:56 2018&#xA;</date>
     <sw_version>5.11.7.21</sw_version>
   </info>
-  <variables count="3">
+  <variables count="4">
     <var index="0" type="enum" domain_size="1" ext_type="ubound_int"/>
     <var index="1" type="enum" domain_size="1" ext_type="string"/>
-    <var index="2" type="enum" domain_size="1"/>
+    <var index="2" type="enum" domain_size="1" ext_type="ubound_int"/>
+    <var index="3" type="enum" domain_size="1"/>
   </variables>
   <pm_structure>
     <pm_var order="0" parent="-1" name="NewVariable" index="0"/>
     <pm_var order="1" parent="-1" name="newVariable" index="1"/>
-    <pm_var order="2" parent="-1" name="CurrentLanguage" index="2"/>
+    <pm_var order="2" parent="-1" name="NewVariable_2" index="2"/>
+    <pm_var order="3" parent="-1" name="CurrentLanguage" index="3"/>
   </pm_structure>
   <presentation>
     <layer name="SystemValues">
@@ -29,6 +31,10 @@
       </entry>
       <entry>
         <key>2</key>
+        <value>]-inf;inf[</value>
+      </entry>
+      <entry>
+        <key>3</key>
         <value>{CurrentLanguageType}N/A</value>
       </entry>
     </layer>
@@ -43,6 +49,10 @@
       </entry>
       <entry>
         <key>2</key>
+        <value>NewVariable_2</value>
+      </entry>
+      <entry>
+        <key>3</key>
         <value>CurrentLanguage</value>
       </entry>
     </layer>
@@ -53,7 +63,7 @@
       </entry>
       <entry>
         <key>$VT</key>
-        <value>d92e0ac7-f339-4b44-9ed3-468074902fd6</value>
+        <value>ecbf6f67-7b9a-454d-83fd-6665a93ecb82</value>
       </entry>
       <entry>
         <key>NewVariable</key>
@@ -63,15 +73,26 @@
         <key>newVariable</key>
         <value>2c87fd81-2ef0-4f88-86c4-97bd938f165e</value>
       </entry>
+      <entry>
+        <key>NewVariable_2</key>
+        <value>1d50c6da-218c-4a68-8a78-4a5db07b28b8</value>
+      </entry>
+    </layer>
+    <layer name="VariableNameToTypeName">
+      <entry>
+        <key>NewVariable_2</key>
+        <value>DateTime</value>
+      </entry>
     </layer>
   </presentation>
   <conf_static>
     <data>
-      <![CDATA[v3 n5 e3 r2
+      <![CDATA[v4 n6 e4 r2
+P////-B
 P////-B
 P////-B
 P////-A
-C,D,E
+C,D,E,F
 ]]>
     </data>
   </conf_static>
